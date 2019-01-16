@@ -11,7 +11,7 @@ public class HtmlUtilTest {
 	public static void main(String[] args) {
 		
     	
-    	String url = "http://www.djye.com/";
+    	String url = "https://www.kugou.com/song/#hash=7592B2CB146BC176F37C643C08CEAA09&album_id=14389268";
     	
     	
         final WebClient webClient = new WebClient(BrowserVersion.CHROME);//新建一个模拟谷歌Chrome浏览器的浏览器客户端对象
