@@ -9,9 +9,9 @@ public class HtmlUtilTest {
 	
 	
 	public static void main(String[] args) {
-		
+		System.out.println("------------------------------开始--------------------------------------------------");
     	
-    	String url = "https://www.kugou.com/song/#hash=7592B2CB146BC176F37C643C08CEAA09&album_id=14389268";
+    	String url = "http://www.djye.com/player/23685.htm";
     	
     	
         final WebClient webClient = new WebClient(BrowserVersion.CHROME);//新建一个模拟谷歌Chrome浏览器的浏览器客户端对象
